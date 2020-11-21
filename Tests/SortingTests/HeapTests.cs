@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Tests.SortingTests
 {
-    internal class InsertionTests
+    internal class HeapTests
     {
         List<int> Mixed = new List<int>();
 
@@ -25,9 +25,9 @@ namespace Tests.SortingTests
         [TestCase(new[] { 1, 1, 1, 1, 1 })]
         [TestCase(new[] { -1, 0, 1, 1, -2 })]
         [TestCase(new[] { 10, 100, -10000, 100, 1 })]
-        public void InsertionSort_Test(IEnumerable<int> mixed)
+        public void HeapSort_Test(IEnumerable<int> mixed)
         {
-            var sorted = Nutshell.Sorting.Insertion.Sort(mixed).ToList();
+            var sorted = Nutshell.Sorting.Heap.Sort(mixed).ToList();
             var prev = sorted.First();
 
             for (int i = 0; i < sorted.Count; i++)
@@ -38,9 +38,9 @@ namespace Tests.SortingTests
         }
 
         [Test]
-        public void InsertionSortBig_Test()
+        public void HeapSortBig_Test()
         {
-            var sorted = Nutshell.Sorting.Insertion.Sort(Mixed).ToList();
+            var sorted = Nutshell.Sorting.Heap.Sort(Mixed).ToList();
             var prev = sorted.First();
 
             for (int i = 0; i < sorted.Count; i++)
