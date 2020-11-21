@@ -27,6 +27,8 @@ namespace Nutshell.Sorting
             return lst;
         }
 
+        // Makes sure the head of the node is the largest value
+        // and recursively call itself if the head wasn't already the biggest value
         private static void heapify(List<int> lst, int idx, int max)
         {
             var largest = idx;
@@ -56,10 +58,10 @@ namespace Nutshell.Sorting
             }
         }
 
-        /// <summary>
-        /// Builds the initial heap
-        /// </summary>
-        /// <param name="lst"></param>
+        // Builds the initial heap
+        // starts from the second bottom row of the tree
+        // and works it's way up to make sure the 
+        // highst value is at the top of the tree
         private static void BuildHeap(List<int> lst)
         {
             var n = lst.Count;
