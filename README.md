@@ -1,15 +1,15 @@
 # NutshellAlgorithms
 
-As a way for me to better understand cs basics and algorithms I working through O'Riellys Algorithms in a Nutshell. Implimenting all the algorithms as I go. I'll be adding any extra algrithms that catch my ene as interesting here too.
+As a way for me to better understand cs basics and algorithms I working through O'Riellys Algorithms in a Nutshell. Implimenting all the algorithms as I go. I'll be adding any extra algorithms that catch my eye as interesting here too.
 
 ---
 
 ## Sorting
 
-- [x] Insertion Sort
-- [x] Heap Sort
-- [x] Quick Sort
-- [x] Bucket Sort
+- [x] [Insertion Sort](https://robertcurry.xyz/blog/Algorithms-part1/)
+- [x] [Heap Sort](https://robertcurry.xyz/blog/Algorithms-part2/)
+- [x] [Quick Sort](https://robertcurry.xyz/blog/Algorithms-part3/)
+- [x] [Bucket Sort](https://robertcurry.xyz/blog/Algorithms-part4/)
 - [ ] Merge Sort
   
 ## Searching
