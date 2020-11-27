@@ -10,7 +10,7 @@ As a way for me to better understand cs basics and algorithms I working through 
 - [x] [Heap Sort](https://github.com/RobertCurry0216/NutshellAlgorithms/blob/main/src/Sorting/Heap.cs) : [blog](https://robertcurry.xyz/blog/Algorithms-part2/)
 - [x] [Quick Sort](https://github.com/RobertCurry0216/NutshellAlgorithms/blob/main/src/Sorting/Quick.cs) : [blog](https://robertcurry.xyz/blog/Algorithms-part3/)
 - [x] [Bucket Sort](https://github.com/RobertCurry0216/NutshellAlgorithms/blob/main/src/Sorting/Bucket.cs) : [blog](https://robertcurry.xyz/blog/Algorithms-part4/)
-- [ ] [Merge Sort]()
+- [x] [Merge Sort](https://github.com/RobertCurry0216/NutshellAlgorithms/blob/main/src/Sorting/Merge.cs): [blog](https://robertcurry.xyz/blog/Algorithms-part5/)
   
 ## Searching
 
